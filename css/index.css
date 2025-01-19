@@ -1,0 +1,209 @@
+body {
+    background-image: url('../imgs/visual/patron.jpg');
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bannerPrincipal {
+    width: 100%;
+    height: 470px;
+}
+
+#cabecera {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenedorTarjetasProductos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cabecera span {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#linksCategorias {
+    height: 50px;
+    background-color: #e0880d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Playwrite VN", serif;
+}
+
+#linksCategorias span {
+    font-size: 20px;
+    margin: 0 105px;
+}
+
+#logo {
+    font-family: "Playwrite IN", serif;
+    font-size: 35px;
+    color: #eb27e2;
+}
+
+#linksCategorias a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+}
+
+#cabecera a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#enlacesCabecera {
+    margin-right: 50px;
+    color: #4a27cb;
+}
+
+#linksCategorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -10px;
+}
+
+a[href="index_1.php"] {
+    color: red;
+    font-weight: bold;
+}
+
+.tarjetaProducto {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjetaProducto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorImagen {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.contenedorImagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tituloProducto {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.contenedorPrecio {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

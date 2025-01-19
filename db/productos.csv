@@ -1,0 +1,4 @@
+Id,"Nombre producto",Precio,"Ruta imagen",Disponible,"Edicion Limitada",Stock,"Porcentaje descuento","Descripcion corta","Descripcion larga",Temporada,Categoria
+21,"Flores Azules",820,flores7.jpeg,Sí,Sí,1,0,"flores azules","arreglo flores azules",Primavera,flores
+22,"Reloj Corazones",420,reloj.jpeg,Sí,Sí,1,0,reloj,reloj,Primavera,decoracion
+23,"rosas amarillas",680,"globos y peluche.jpeg",Sí,Sí,1,10,globo,"globos amarillas",Primavera,decoracion
